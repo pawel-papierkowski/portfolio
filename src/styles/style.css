@@ -1,0 +1,30 @@
+/********************************
+ * Styles specific to this app. *
+ ********************************/
+
+/* Settings for globally used elements. */
+
+body {
+  /* Game completely centers its content in browser window. */
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: top;        /* Vertical */
+  /* Other stuff. */
+  color-scheme: light;
+}
+
+/*** Common elements used on multiple pages. ***/
+
+h1 {
+  color: #484848;
+  font-size: 54px;
+  text-align: center;
+  text-shadow: 0 0 5px currentColor;
+}
+
+h2 {
+  color: #484848;
+  font-size: 24px;
+  text-align: left;
+  text-shadow: 0 0 2px currentColor;
+}
