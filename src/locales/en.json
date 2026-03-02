@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Portfolio",
+    "description": "My projects",
+    "repository": "Repository",
+    "selectTheme": "Theme",
+    "selectLang": "Language"
+  },
+
+  "themes": {
+    "light": "Light",
+    "neumorphic": "Neumorphic",
+    "dark": "Dark",
+    "neon": "Neon",
+    "code": "Code"
+  },
+
+  "languages": {
+    "pl": "Polish",
+    "en": "English"
+  },
+
+  "article": {
+    "webpage": "Webpage",
+    "repository": "Repository"
+  },
+  
+  "articles": {
+    "portfolio": {
+      "title": "Portfolio",
+      "content": ""
+    },
+    "tictactoe": {
+      "title": "Tic-tac-toe",
+      "content": ""
+    }
+  }
+}

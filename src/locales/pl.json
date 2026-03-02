@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Portfolio",
+    "description": "Moje projekty",
+    "repository": "Repozytorium",
+    "selectTheme": "Motyw",
+    "selectLang": "Język"
+  },
+
+  "themes": {
+    "light": "Jasny",
+    "neumorphic": "Neumorficzny",
+    "dark": "Ciemny",
+    "neon": "Neonowy",
+    "code": "Kod"
+  },
+
+  "languages": {
+    "pl": "Polski",
+    "en": "Angielski"
+  },
+
+  "article": {
+    "webpage": "Strona WWW",
+    "repository": "Repozytorium"
+  },
+
+  "articles": {
+    "portfolio": {
+      "title": "Portfolio",
+      "content": ""
+    },
+    "tictactoe": {
+      "title": "Kółko i krzyżyk",
+      "content": ""
+    }
+  }
+}
