@@ -5,26 +5,64 @@
 /* Settings for globally used elements. */
 
 body {
-  /* Game completely centers its content in browser window. */
   display: flex;
   justify-content: center; /* Horizontal */
-  align-items: top;        /* Vertical */
+  align-items: start;      /* Vertical */
   /* Other stuff. */
-  color-scheme: light;
+  color-scheme: var(--color-scheme);
+
+  color: var(--body-color);
+  background: var(--body-background);
+}
+
+a {
+  color: var(--link-color);
 }
 
 /*** Common elements used on multiple pages. ***/
 
 h1 {
-  color: #484848;
+  color: var(--h1-color);
   font-size: 54px;
   text-align: center;
-  text-shadow: 0 0 5px currentColor;
+  text-shadow: var(--h1-text-shadow);
 }
 
 h2 {
-  color: #484848;
+  color: var(--h2-color);
   font-size: 24px;
   text-align: left;
-  text-shadow: 0 0 2px currentColor;
+  text-shadow: var(--h2-text-shadow);
+}
+
+/**/
+
+article {
+  position: relative;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex-direction: column;
+
+  min-width: 300px;
+  max-width: 1000px;
+
+  border-radius: var(--article-border-radius);
+  background: var(--article-background);
+  box-shadow: var(--article-box-shadow);
+
+  font-family: var(--font-family-general);
+}
+
+article ul {
+  padding: 0 0 0 20px; /* or 1em */
+}
+
+article .content {
+  z-index: 3;
+
+  margin: var(--article-margin);
+  padding: var(--article-padding);
+
+  background: var(--article-background);
 }
