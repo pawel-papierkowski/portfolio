@@ -21,12 +21,19 @@
   /* Long-form reading. */
   --font-family-general: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand,
          Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, sans-serif;
+  /* Headers. */
+  --font-family-header: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand,
+         Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, sans-serif;
   --font-size-base: 16px;
+  --font-size-footer: 12px;
 
   /*** Theme defaults ***/
+  --article-image-padding: 3px;
   --article-image-border: 1px solid #333333;
-  --article-image-border-radius: none;
-  --article-image-box-shadow: none;
+  --article-image-background: #ffffff;
+  --article-img-padding: 3px;
+  --article-img-border-radius: none;
+  --article-img-box-shadow: none;
 }
 
 /*** LIGHT THEMES ***/
@@ -58,6 +65,7 @@
   --article-box-shadow: none;
   --article-content-margin: 3px;
   --article-content-padding: 10px;
+  --article-img-padding: 0px;
 
   --footer-border: none;
   --footer-border-radius: 5px;
@@ -94,8 +102,9 @@
   --article-content-margin: 8px;
   --article-content-padding: 10px;
   --article-image-border: none;
-  --article-image-border-radius: 15px;
-  --article-image-box-shadow:  6px 6px 10px -1px #888,
+  --article-image-background: none;
+  --article-img-border-radius: 15px;
+  --article-img-box-shadow:  6px 6px 10px -1px #888,
 	                            -6px -6px 10px 3px #fff;
 
   --footer-border: none;
@@ -111,7 +120,7 @@
   --color-scheme: light;
   --body-background: #f8f8f8;
   --body-color: #000000;
-  --link-color: #2563eb;
+  --link-color: #666666;
 
   --combobox-background: #ffffff;
   --combobox-text: #000000;
@@ -142,6 +151,7 @@
 
   --font-family-ui: "Arial", sans-serif;
   --font-family-general: "Arial", sans-serif;
+  --font-family-header: "Arial", sans-serif;
 }
 
 [data-theme="whitenblack"] h1 {
@@ -219,26 +229,33 @@
   --article-content-margin: 6px;
   --article-content-padding: 10px;
   --article-image-border: none;
+  --article-image-background: none;
 
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: linear-gradient(315deg,#213a46,#482330);
   --footer-box-shadow: none;
+
+  --font-family-header: 'Orbitron', 'Audiowide', Rajdhani, monospace;
 }
 
 [data-theme="neon"] h1 {
   color: transparent;
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #57ff98);
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
   background-clip: text;
   background-size: 100%;
+  
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
   animation: neonGradientShift 2s ease infinite;
 }
 
 [data-theme="neon"] h2 {
   color: transparent;
-  background: linear-gradient(180deg, #ff6b6b, #4ecdc4, #57ff98);
+  background: linear-gradient(-45deg, #ff00ff, #00ffff, #ffff00);
   background-clip: text;
   background-size: 100%;
+
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
   animation: neonGradientShift 2s ease infinite;
 }
 
@@ -261,19 +278,19 @@
   height: 100%;
   background: linear-gradient(315deg,#03a9f4,#ff0058);
   filter: blur(30px);
-  animation: neonHighlightShift 1s ease infinite;
+  animation: neonHighlightShift 3s ease infinite;
 }
 
 @keyframes neonGradientShift {
-  0% { opacity: 95%; }
+  0% { opacity: 90%; }
   50% { opacity: 100%; }
-  100% { opacity: 95%; }
+  100% { opacity: 90%; }
 }
 
 @keyframes neonHighlightShift {
-  0% { filter: blur(30px); }
+  0% { filter: blur(25px); }
   50% { filter: blur(35px); }
-  100% { filter: blur(30px); }
+  100% { filter: blur(25px); }
 }
 
 /* Code */
@@ -304,12 +321,14 @@
   --article-content-margin: 3px;
   --article-content-padding: 10px;
   --article-image-border: 1px solid #00ff33;
+  --article-image-background: none;
 
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: #005500;
   --footer-box-shadow: none;
 
-  --font-family-ui: monospace;
-  --font-family-general: monospace;
+  --font-family-ui: 'JetBrains Mono', 'Space Mono', 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+  --font-family-general: 'JetBrains Mono', 'Space Mono', 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+  --font-family-header: 'JetBrains Mono', 'Space Mono', 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
 }
