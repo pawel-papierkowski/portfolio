@@ -30,7 +30,7 @@
   "articles": {
     "portfolio": {
       "title": "Portfolio",
-      "content": "<p>Ten właśnie projekt. Bardzo minimalistyczny i statyczny, ponieważ nie potrzebuje niczego poza listą wszystkich projektów, które stworzyłem.</p><p>Cechy:</p><ul><li>wiele motywów</li><li>wiele języków</li></ul>"
+      "content": "<p>Ten właśnie projekt. Bardzo minimalistyczny i statyczny, ponieważ nie potrzebuje niczego poza listą wszystkich projektów, które stworzyłem.</p><p>Cechy:</p><ul><li>wiele motywów CSS</li><li>wiele języków</li></ul>"
     },
     "tictactoe": {
       "title": "Kółko i krzyżyk",
