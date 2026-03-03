@@ -59,7 +59,7 @@ const selectOption = (option: string) => {
   position: relative;
   display: inline-block;
 
-  margin-left: 5px;
+  margin: 0px 5px;
   padding: 0px;
 
   color: var(--combobox-text);
@@ -123,6 +123,7 @@ const selectOption = (option: string) => {
 }
 
 .option:hover {
+  color: var(--combobox-hover-color);
   background-color: var(--combobox-hover-background);
 }
 </style>

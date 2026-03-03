@@ -10,7 +10,7 @@ export const projectProp: ProjectProp = {
 
 /** Theme list. */
 export const themes: string[] = [
-  'light','neumorphic', 'dark', 'neon', 'code'
+  'light','neumorphic', 'whitenblack', 'dark', 'neon', 'code'
 ];
 
 /** Default theme. Must be key from themes. */
@@ -26,11 +26,13 @@ export const languages: string[] = [
 export const articleEntries: ArticleEntry[] = [
   {
     key: 'portfolio',
+    techStack: 'Vue',
     webpage: 'https://pawel-papierkowski.github.io/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio'
   },
   {
     key: 'tictactoe',
+    techStack: 'Vue',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe'
   }

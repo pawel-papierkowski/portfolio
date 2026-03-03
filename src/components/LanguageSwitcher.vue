@@ -37,16 +37,9 @@ const setLanguage = (langKey: string) => {
 </script>
 
 <template>
-  <div class="languageSelector">
-    {{t('app.selectLang')}}:
-    <ComboBox v-model="currentLanguage" :options="languages" langPrefix="languages" />
-  </div>
+  {{t('app.selectLang')}}:
+  <ComboBox v-model="currentLanguage" :options="languages" langPrefix="languages" />
 </template>
 
 <style scoped>
-.languageSelector {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 </style>

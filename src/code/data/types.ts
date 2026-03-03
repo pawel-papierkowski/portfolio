@@ -10,6 +10,7 @@ export type ProjectProp = {
 /** Article entry. */
 export type ArticleEntry = {
   key: string;
+  techStack: string;
   webpage: string;
   repository: string;
 };

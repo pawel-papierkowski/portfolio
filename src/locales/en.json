@@ -10,6 +10,7 @@
   "themes": {
     "light": "Light",
     "neumorphic": "Neumorphic",
+    "whitenblack": "White & Black",
     "dark": "Dark",
     "neon": "Neon",
     "code": "Code"
@@ -21,6 +22,7 @@
   },
 
   "article": {
+    "techStack": "Tech stack",
     "webpage": "Webpage",
     "repository": "Repository"
   },
@@ -28,11 +30,11 @@
   "articles": {
     "portfolio": {
       "title": "Portfolio",
-      "content": ""
+      "content": "<p>This very project. Very minimal and static, as nothing is needed besides list of all projects that I created.</p><p>Features:</p><ul><li>multiple themes</li><li>multiple languages</li></ul>"
     },
     "tictactoe": {
       "title": "Tic-tac-toe",
-      "content": ""
+      "content": "<p>Simple Vue project implementing tic-tac-toe game.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels, including perfect gameplay (using miniMax algorithm)</li></ul>"
     }
   }
 }

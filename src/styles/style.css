@@ -39,7 +39,7 @@ h2 {
 
 article {
   position: relative;
-  display: flex;
+  display: flex; /* Must stay, needed for some themes to correctly render, like neon. */
   justify-content: stretch;
   align-items: stretch;
   flex-direction: column;
@@ -47,6 +47,10 @@ article {
   min-width: 300px;
   max-width: 1000px;
 
+  margin: var(--article-margin);
+  padding: var(--article-padding);
+
+  border: var(--article-border);
   border-radius: var(--article-border-radius);
   background: var(--article-background);
   box-shadow: var(--article-box-shadow);
@@ -58,11 +62,39 @@ article ul {
   padding: 0 0 0 20px; /* or 1em */
 }
 
-article .content {
+article .articleContent {
+  display: flex;
+  align-items: flex-start; /* top-align image and text */
+  gap: 12px;               /* space between image and text */
+
   z-index: 3;
 
-  margin: var(--article-margin);
-  padding: var(--article-padding);
+  margin: var(--article-content-margin);
+  padding: var(--article-content-padding);
 
   background: var(--article-background);
+}
+
+article .articleImage {
+  flex: 0 0 auto; /* keep image at natural width */
+  width: 100px;
+  margin: 0px;
+  padding: 3px;
+
+  border: var(--article-image-border);
+}
+
+article .articleImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  padding: 3px;
+
+  border-radius: var(--article-image-border-radius);
+  box-shadow: var(--article-image-box-shadow);
+}
+
+article .articleText {
+  flex: 1 1 auto; /* text column takes remaining space */
 }

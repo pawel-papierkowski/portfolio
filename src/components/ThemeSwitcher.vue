@@ -34,16 +34,9 @@ const setTheme = (themeKey: string) => {
 </script>
 
 <template>
-  <div class="themeSelector">
-    {{t('app.selectTheme')}}:
-    <ComboBox v-model="currentTheme" :options="themes" langPrefix="themes" />
-  </div>
+  {{t('app.selectTheme')}}:
+  <ComboBox v-model="currentTheme" :options="themes" langPrefix="themes" />
 </template>
 
 <style scoped>
-.themeSelector {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 </style>
