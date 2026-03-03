@@ -10,6 +10,7 @@
   "themes": {
     "light": "Jasny",
     "neumorphic": "Neumorficzny",
+    "whitenblack": "Biel i czerń",
     "dark": "Ciemny",
     "neon": "Neonowy",
     "code": "Kod"
@@ -21,6 +22,7 @@
   },
 
   "article": {
+    "techStack": "Stos technologiczny",
     "webpage": "Strona WWW",
     "repository": "Repozytorium"
   },
@@ -28,11 +30,11 @@
   "articles": {
     "portfolio": {
       "title": "Portfolio",
-      "content": ""
+      "content": "<p>Ten właśnie projekt. Bardzo minimalistyczny i statyczny, ponieważ nie potrzebuje niczego poza listą wszystkich projektów, które stworzyłem.</p><p>Cechy:</p><ul><li>wiele motywów</li><li>wiele języków</li></ul>"
     },
     "tictactoe": {
       "title": "Kółko i krzyżyk",
-      "content": ""
+      "content": "<p>Prosty projekt w Vue, który implementuje grę kółko i krzyżyk.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności, w tym perfekcyjna gra (z użyciem algorytmu miniMax)</li></ul>"
     }
   }
 }

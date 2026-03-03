@@ -19,10 +19,10 @@ locale.value = languages.includes(browserLang) ? browserLang : 'en';
   </header>
 
   <main>
-    <section class="menu">
+    <aside class="menu">
       <ThemeSwitcher />
       <LanguageSwitcher />
-    </section>
+    </aside>
 
     <section>
       <PortfolioProjects />
@@ -57,6 +57,7 @@ footer {
   margin: 14px;
   padding: 5px;
 
+  border: var(--footer-border);
   border-radius: var(--footer-border-radius);
   background: var(--footer-background);
   box-shadow: var(--footer-box-shadow);

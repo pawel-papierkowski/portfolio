@@ -11,4 +11,4 @@ Page is fully static. You can change theme and language.
 
 ## Bugs
 
-- Sometimes loading articles in different language takes too long. Preload?
+- None known.
