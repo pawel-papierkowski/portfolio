@@ -35,5 +35,11 @@ export const articleEntries: ArticleEntry[] = [
     techStack: 'Vue',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe'
+  },
+  {
+    key: 'reversi',
+    techStack: 'Angular',
+    webpage: 'https://pawel-papierkowski.github.io/reversi',
+    repository: 'https://github.com/pawel-papierkowski/reversi'
   }
 ];

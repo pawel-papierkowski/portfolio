@@ -34,7 +34,11 @@
     },
     "tictactoe": {
       "title": "Kółko i krzyżyk",
-      "content": "<p>Prosty projekt w Vue, który implementuje grę kółko i krzyżyk.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności, w tym perfekcyjna gra (z użyciem algorytmu miniMax)</li></ul>"
+      "content": "<p>Prosty projekt w Vue, który implementuje grę Kółko i krzyżyk.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności, w tym perfekcyjna gra (z użyciem algorytmu miniMax)</li></ul>"
+    },
+    "reversi": {
+      "title": "Reversi",
+      "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax)</li></ul>"
     }
   }
 }
