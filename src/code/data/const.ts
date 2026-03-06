@@ -16,6 +16,9 @@ export const themes: string[] = [
 /** Default theme. Must be key from themes. */
 export const defaultTheme = 'light';
 
+/** Fallback language. */
+export const fallbackLang = 'en';
+
 /** Language list. */
 export const languages: string[] = [
   'en',

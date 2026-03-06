@@ -46,10 +46,15 @@
   --body-color: #111111;
   --link-color: #2563eb;
 
+  --combobox-border: 1px solid #d1d5db;
   --combobox-background: #ffffff;
   --combobox-text: #111827;
-  --combobox-border: 1px solid #d1d5db;
-  --combobox-hover-background: #f6f6f6;
+  --combobox-background-hover: #f0f0f0;
+  --combobox-text-hover: #111827;
+  --combobox-option-border: 1px solid #d1d5db;
+  --combobox-option-background: #f8f8f8;
+  --combobox-option-background-hover: #e8e8e8;
+  --combobox-option-text-hover: #111827;
 
   --h1-color: #484848;
   --h1-text-shadow: 0 0 2px currentColor;
@@ -81,10 +86,15 @@
   --body-color: #111111;
   --link-color: #2563eb;
 
+  --combobox-border: 1px solid #d1d5db;
   --combobox-background: #ededed;
   --combobox-text: #111827;
-  --combobox-border: 1px solid #d1d5db;
-  --combobox-hover-background: #f6f6f6;
+  --combobox-background-hover: #e2e2e2;
+  --combobox-text-hover: #111827;
+  --combobox-option-border: 1px solid #d1d5db;
+  --combobox-option-background: #ededed;
+  --combobox-option-background-hover: #f6f6f6;
+  --combobox-option-text-hover: #111827;
 
   --h1-color: #484848;
   --h1-text-shadow: 0 0 5px currentColor;
@@ -122,11 +132,15 @@
   --body-color: #000000;
   --link-color: #666666;
 
+  --combobox-border: 1px solid #000000;
   --combobox-background: #ffffff;
   --combobox-text: #000000;
-  --combobox-border: 1px solid #000000;
-  --combobox-hover-color: #ffffff;
-  --combobox-hover-background: #000000;
+  --combobox-background-hover: #ffffff;
+  --combobox-text-hover: #000000;
+  --combobox-option-border: 1px solid #000000;
+  --combobox-option-background: #ffffff;
+  --combobox-option-background-hover: #000000;
+  --combobox-option-text-hover: #ffffff;
 
   --h1-color: #000000;
   --h1-text-shadow: none;
@@ -180,10 +194,15 @@
   --h2-color: #e8e8e8;
   --h2-text-shadow: 0 0 2px currentColor;
 
-  --combobox-background: #111827;
-  --combobox-text: #e5e7eb;
   --combobox-border: 1px solid #777777;
-  --combobox-hover-background: #444444;
+  --combobox-background: #111111;
+  --combobox-text: #e5e7eb;
+  --combobox-background-hover: #222222;
+  --combobox-text-hover: #e5e7eb;
+  --combobox-option-border: 1px solid #777777;
+  --combobox-option-background: #111111;
+  --combobox-option-background-hover: #444444;
+  --combobox-option-text-hover: #e5e7eb;
 
   --article-margin: 0px;
   --article-padding: 0px;
@@ -215,10 +234,15 @@
   --h2-color: #fdfdfd;
   --h2-text-shadow: 0 0 2px currentColor;
 
-  --combobox-background: #111827;
-  --combobox-text: #e5e7eb;
   --combobox-border: 1px solid #4ecdc4;
-  --combobox-hover-background: #444444;
+  --combobox-background: #111111;
+  --combobox-text: #e5e7eb;
+  --combobox-background-hover: #222222;
+  --combobox-text-hover: #e5e7eb;
+  --combobox-option-border: 1px solid #4ecdc4;
+  --combobox-option-background: #111111;
+  --combobox-option-background-hover: #444444;
+  --combobox-option-text-hover: #e5e7eb;
 
   --article-margin: 0px;
   --article-padding: 0px;
@@ -244,7 +268,7 @@
   background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
   background-clip: text;
   background-size: 100%;
-  
+
   filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
   animation: neonGradientShift 2s ease infinite;
 }
@@ -307,10 +331,15 @@
   --h2-color: #00ff33;
   --h2-text-shadow: 0 0 2px currentColor;
 
+  --combobox-border: 1px solid #00aa00;
   --combobox-background: #006600;
   --combobox-text: #00ff33;
-  --combobox-border: 1px solid #00aa00;
-  --combobox-hover-background: #009900;
+  --combobox-background-hover: #007700;
+  --combobox-text-hover: #00ff33;
+  --combobox-option-border: 1px solid #00aa00;
+  --combobox-option-background: #006600;
+  --combobox-option-background-hover: #009900;
+  --combobox-option-text-hover: #00ff33;
 
   --article-margin: 0px;
   --article-padding: 0px;
