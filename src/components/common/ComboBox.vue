@@ -68,7 +68,11 @@ const selectOption = (option: string) => {
   border: var(--combobox-border);
   border-radius: 5px;
   min-width: 125px;
-  z-index: 10000;
+}
+
+.combobox:hover {
+  color: var(--combobox-text-hover);
+  background-color: var(--combobox-background-hover);
 }
 
 /**/
@@ -78,7 +82,7 @@ const selectOption = (option: string) => {
   justify-content: space-between;
   align-items: center;
 
-  padding: 2px 4px;
+  padding: 0px 4px;
   cursor: pointer;
 }
 
@@ -107,9 +111,12 @@ const selectOption = (option: string) => {
   left: 0;
   right: 0;
 
-  border: var(--combobox-border);
+  margin: 0px;
+  padding: 3px;
+
+  border: var(--combobox-option-border);
   border-radius: 5px;
-  background: var(--combobox-background);
+  background: var(--combobox-option-background);
 
   min-width: 150px;
   max-height: 300px;
@@ -118,12 +125,12 @@ const selectOption = (option: string) => {
 }
 
 .option {
-  padding: 4px;
+  padding: 1px;
   cursor: pointer;
 }
 
 .option:hover {
-  color: var(--combobox-hover-color);
-  background-color: var(--combobox-hover-background);
+  color: var(--combobox-option-text-hover);
+  background-color: var(--combobox-option-background-hover);
 }
 </style>

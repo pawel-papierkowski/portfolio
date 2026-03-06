@@ -2,12 +2,12 @@
 import { ref, onMounted, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-import { languages } from '@/code/data/const.ts';
+import { languages, fallbackLang } from '@/code/data/const.ts';
 
 import ComboBox from '@/components/common/ComboBox.vue';
 
-const currentLanguage = ref('en');
-const systemLanguage = navigator.language.split('-')[0] || 'en';
+const currentLanguage = ref(fallbackLang);
+const systemLanguage = navigator.language.split('-')[0] || fallbackLang;
 
 const { t, locale } = useI18n();
 
