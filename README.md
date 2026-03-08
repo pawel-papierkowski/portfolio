@@ -4,6 +4,8 @@ Very small and simple project that only shows off where to see other projects in
 
 Page is fully static. You can change theme and language.
 
+Link to webpage: https://pawel-papierkowski.github.io/portfolio/
+
 ## Used
 
 - Node.js: 24.13.0
