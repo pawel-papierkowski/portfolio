@@ -38,7 +38,7 @@
     },
     "reversi": {
       "title": "Reversi",
-      "content": "<p>Simple Angular project implementing Reversi game.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels (using miniMax algorithm)</li></ul>"
+      "content": "<p>Simple Angular project implementing Reversi game.</p><p>UNDER DEVELOPMENT.</p><p>Planned features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels (using miniMax algorithm)</li></ul>"
     }
   }
 }

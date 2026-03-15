@@ -38,7 +38,7 @@
     },
     "reversi": {
       "title": "Reversi",
-      "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax)</li></ul>"
+      "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>W TRAKCIE PRAC.</p><p>Planowane cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax)</li></ul>"
     }
   }
 }
