@@ -1,4 +1,4 @@
-import type { ProjectProp,  ArticleEntry } from '@/code/data/types';
+import type { ProjectProp, ArticleEntry } from '@/code/data/types';
 
 export const projectProp: ProjectProp = {
   title: 'Portfolio',
@@ -29,19 +29,19 @@ export const languages: string[] = [
 export const articleEntries: ArticleEntry[] = [
   {
     key: 'portfolio',
-    techStack: 'Vue',
+    techStack: 'Vue v3.5.27',
     webpage: 'https://pawel-papierkowski.github.io/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio'
   },
   {
     key: 'tictactoe',
-    techStack: 'Vue',
+    techStack: 'Vue v3.5.27',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe'
   },
   {
     key: 'reversi',
-    techStack: 'Angular',
+    techStack: 'Angular v21',
     webpage: 'https://pawel-papierkowski.github.io/reversi',
     repository: 'https://github.com/pawel-papierkowski/reversi'
   }
