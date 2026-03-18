@@ -7,6 +7,12 @@ export type ProjectProp = {
   build: string;
 };
 
+/** Article group. For multiple related articles (like projects for same system). */
+export type ArticleGroup = {
+  key: string;
+  articles: ArticleEntry[];
+};
+
 /** Article entry. */
 export type ArticleEntry = {
   key: string;
