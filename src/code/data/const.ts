@@ -29,19 +29,19 @@ export const languages: string[] = [
 export const articleEntries: ArticleEntry[] = [
   {
     key: 'portfolio',
-    techStack: 'JavaScript/TypeScript, Vue v3.5.27',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
     webpage: 'https://pawel-papierkowski.github.io/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio'
   },
   {
     key: 'tictactoe',
-    techStack: 'JavaScript/TypeScript, Vue v3.5.27',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe'
   },
   {
     key: 'reversi',
-    techStack: 'JavaScript/TypeScript, Angular v21',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Angular v21',
     webpage: 'https://pawel-papierkowski.github.io/reversi',
     repository: 'https://github.com/pawel-papierkowski/reversi'
   }
