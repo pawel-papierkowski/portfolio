@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
+import { projectProp } from '@/code/data/const.ts';
 
 import type { ArticleEntry } from '@/code/data/types.ts';
 
@@ -9,19 +10,24 @@ const props = defineProps<{
 
 const { t } = useI18n();
 
-const imageUrl = `${import.meta.env.BASE_URL}icons/${props.entry.key}.svg`;
+const imageUrl = `${import.meta.env.BASE_URL}articles/${props.entry.key}.svg`;
+
+function canShow(): boolean {
+  if (!props.entry.showProd && projectProp.build === 'PROD') return false;
+  return true;
+}
 
 </script>
 
 <template>
-  <article>
+  <article v-if="canShow()">
     <div class="articleContent">
       <div class="articleImage">
         <img :src="imageUrl" />
       </div>
 
       <div class="articleText">
-        <h2>{{ t('articles.'+entry.key+'.title') }}</h2>
+        <h3>{{ t('articles.'+entry.key+'.title') }}</h3>
         <div v-html="t('articles.'+entry.key+'.content')"></div>
         <p>
           <strong>{{t('article.techStack')}}</strong>: {{ entry.techStack }}
@@ -35,7 +41,12 @@ const imageUrl = `${import.meta.env.BASE_URL}icons/${props.entry.key}.svg`;
           </template>
         </p>
         <p>
-          <strong>{{t('article.repository')}}</strong>: <a :href="entry.repository" target="_blank" rel="noopener">{{ entry.repository }}</a>
+          <template v-if="entry.repository">
+            <strong>{{t('article.repository')}}</strong>: <a :href="entry.repository" target="_blank" rel="noopener">{{ entry.repository }}</a>
+          </template>
+          <template v-else>
+            <strong>{{t('article.repository')}}</strong>: -
+          </template>
         </p>
       </div>
     </div>

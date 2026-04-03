@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-
 import { projectProp } from '@/code/data/const.ts';
 
 const { t } = useI18n();

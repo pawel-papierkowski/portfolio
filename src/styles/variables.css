@@ -62,6 +62,16 @@
   --h2-color: #484848;
   --h2-text-shadow: 0 0 1px currentColor;
 
+  --h3-color: #484848;
+  --h3-text-shadow: 0 0 1px currentColor;
+
+  --section-margin: 3px;
+  --section-padding: 10px;
+  --section-border: none;
+  --section-border-radius: 10px;
+  --section-background: #f0f0f0;
+  --section-box-shadow: none;
+
   --article-margin: 0px;
   --article-padding: 0px;
   --article-border: none;
@@ -102,6 +112,9 @@
   --h2-color: #484848;
   --h2-text-shadow: 0 0 2px currentColor;
 
+  --h3-color: #484848;
+  --h3-text-shadow: 0 0 2px currentColor;
+
   --article-margin: 3px;
   --article-padding: 3px;
   --article-border: none;
@@ -115,7 +128,15 @@
   --article-image-background: none;
   --article-img-border-radius: 15px;
   --article-img-box-shadow:  6px 6px 10px -1px #888,
-	                            -6px -6px 10px 3px #fff;
+	                           -6px -6px 10px 3px #fff;
+
+  --section-margin: 8px 3px;
+  --section-padding: 10px;
+  --section-border: none;
+  --section-border-radius: 15px;
+  --section-background: #f0f0f0;
+  --section-box-shadow: inset 10px 10px 8px #e1e1e1,
+                        inset -10px -10px 8px #f4f4f4;
 
   --footer-border: none;
   --footer-border-radius: 15px;
@@ -148,6 +169,16 @@
   --h2-color: #000000;
   --h2-text-shadow: none;
 
+  --h3-color: #000000;
+  --h3-text-shadow: none;
+
+  --section-margin: 7px;
+  --section-padding: 10px;
+  --section-border: 5px solid #000000;
+  --section-border-radius: 0px;
+  --section-background: #ffffff;
+  --section-box-shadow: 10px 10px 0 #000000;
+
   --article-margin: 3px;
   --article-padding: 10px;
   --article-border: 5px solid #000000;
@@ -178,6 +209,11 @@
   font-weight: 700;
 }
 
+[data-theme="whitenblack"] h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 /*** DARK THEMES ***/
 
 /* Dark */
@@ -194,6 +230,9 @@
   --h2-color: #e8e8e8;
   --h2-text-shadow: 0 0 2px currentColor;
 
+  --h3-color: #e8e8e8;
+  --h3-text-shadow: 0 0 2px currentColor;
+
   --combobox-border: 1px solid #777777;
   --combobox-background: #111111;
   --combobox-text: #e5e7eb;
@@ -203,6 +242,13 @@
   --combobox-option-background: #111111;
   --combobox-option-background-hover: #444444;
   --combobox-option-text-hover: #e5e7eb;
+
+  --section-margin: 3px;
+  --section-padding: 10px;
+  --section-border: none;
+  --section-border-radius: 10px;
+  --section-background: #333333;
+  --section-box-shadow: none;
 
   --article-margin: 0px;
   --article-padding: 0px;
@@ -234,6 +280,9 @@
   --h2-color: #fdfdfd;
   --h2-text-shadow: 0 0 2px currentColor;
 
+  --h3-color: #fdfdfd;
+  --h3-text-shadow: 0 0 2px currentColor;
+
   --combobox-border: 1px solid #4ecdc4;
   --combobox-background: #111111;
   --combobox-text: #e5e7eb;
@@ -243,6 +292,13 @@
   --combobox-option-background: #111111;
   --combobox-option-background-hover: #444444;
   --combobox-option-text-hover: #e5e7eb;
+
+  --section-margin: 3px;
+  --section-padding: 10px;
+  --section-border: none;
+  --section-border-radius: 10px;
+  --section-background: transparent;
+  --section-box-shadow: none;
 
   --article-margin: 0px;
   --article-padding: 0px;
@@ -274,6 +330,16 @@
 }
 
 [data-theme="neon"] h2 {
+  color: transparent;
+  background: linear-gradient(-45deg, #ff00ff, #00ffff, #ffff00);
+  background-clip: text;
+  background-size: 100%;
+
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
+  animation: neonGradientShift 2s ease infinite;
+}
+
+[data-theme="neon"] h3 {
   color: transparent;
   background: linear-gradient(-45deg, #ff00ff, #00ffff, #ffff00);
   background-clip: text;
@@ -331,6 +397,9 @@
   --h2-color: #00ff33;
   --h2-text-shadow: 0 0 2px currentColor;
 
+  --h3-color: #00ff33;
+  --h3-text-shadow: 0 0 2px currentColor;
+
   --combobox-border: 1px solid #00aa00;
   --combobox-background: #006600;
   --combobox-text: #00ff33;
@@ -340,6 +409,13 @@
   --combobox-option-background: #006600;
   --combobox-option-background-hover: #009900;
   --combobox-option-text-hover: #00ff33;
+
+  --section-margin: 3px;
+  --section-padding: 10px;
+  --section-border: none;
+  --section-border-radius: 10px;
+  --section-background: #002900;
+  --section-box-shadow: none;
 
   --article-margin: 0px;
   --article-padding: 0px;
