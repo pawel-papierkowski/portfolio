@@ -26,6 +26,17 @@
     "webpage": "Strona WWW",
     "repository": "Repozytorium"
   },
+  
+  "articleGroups": {
+    "general": {
+      "title": "Ogólna",
+      "descr": ""
+    },
+    "test": {
+      "title": "Test",
+      "descr": "To jest GRUPA TESTOWA"
+    }
+  },
 
   "articles": {
     "portfolio": {

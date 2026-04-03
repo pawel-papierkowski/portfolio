@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import ThemeSwitcher from '@/components/ThemeSwitcher.vue';
-import LanguageSwitcher from '@/components/LanguageSwitcher.vue';
+import ThemeSwitcher from '@/components/layout/ThemeSwitcher.vue';
+import LanguageSwitcher from '@/components/layout/LanguageSwitcher.vue';
 </script>
 
 <template>

@@ -1,4 +1,4 @@
-import type { ProjectProp, ArticleEntry } from '@/code/data/types';
+import type { ProjectProp } from '@/code/data/types';
 
 export const projectProp: ProjectProp = {
   title: 'Portfolio',
@@ -23,32 +23,4 @@ export const fallbackLang = 'en';
 export const languages: string[] = [
   'en',
   'pl',
-];
-
-/** List of article entries. */
-export const articleEntries: ArticleEntry[] = [
-  {
-    key: 'portfolio',
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
-    webpage: 'https://pawel-papierkowski.github.io/portfolio',
-    repository: 'https://github.com/pawel-papierkowski/portfolio'
-  },
-  {
-    key: 'ptasks',
-    techStack: 'JavaScript',
-    webpage: null, // this project do not have webpage
-    repository: 'https://github.com/pawel-papierkowski/ptasks'
-  },
-  {
-    key: 'tictactoe',
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
-    webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
-    repository: 'https://github.com/pawel-papierkowski/tic-tac-toe'
-  },
-  {
-    key: 'reversi',
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Angular v21',
-    webpage: 'https://pawel-papierkowski.github.io/reversi',
-    repository: 'https://github.com/pawel-papierkowski/reversi'
-  }
 ];

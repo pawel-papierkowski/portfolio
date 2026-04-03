@@ -3,9 +3,9 @@ import { useI18n } from 'vue-i18n';
 
 import { projectProp, languages } from '@/code/data/const.ts';
 
-import PortfolioOptions from '@/components/PortfolioOptions.vue';
-import PortfolioProjects from '@/components/PortfolioProjects.vue';
-import PortfolioFooter from '@/components/PortfolioFooter.vue';
+import PortfolioOptions from '@/components/layout/PortfolioOptions.vue';
+import PortfolioGroups from '@/components/projects/PortfolioGroups.vue';
+import PortfolioFooter from '@/components/layout/PortfolioFooter.vue';
 
 const { locale } = useI18n();
 
@@ -20,7 +20,7 @@ locale.value = languages.includes(browserLang) ? browserLang : 'en';
 
   <main>
     <PortfolioOptions />
-    <PortfolioProjects />
+    <PortfolioGroups />
   </main>
 
   <PortfolioFooter />

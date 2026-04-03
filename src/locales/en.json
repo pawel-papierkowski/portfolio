@@ -27,6 +27,17 @@
     "repository": "Repository"
   },
   
+  "articleGroups": {
+    "general": {
+      "title": "General",
+      "descr": ""
+    },
+    "test": {
+      "title": "Test",
+      "descr": "This is TEST GROUP"
+    }
+  },
+  
   "articles": {
     "portfolio": {
       "title": "Portfolio",
