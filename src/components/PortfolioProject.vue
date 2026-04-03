@@ -27,7 +27,12 @@ const imageUrl = `${import.meta.env.BASE_URL}icons/${props.entry.key}.svg`;
           <strong>{{t('article.techStack')}}</strong>: {{ entry.techStack }}
         </p>
         <p>
-          <strong>{{t('article.webpage')}}</strong>: <a :href="entry.webpage" target="_blank" rel="noopener">{{ entry.webpage }}</a>
+          <template v-if="entry.webpage">
+            <strong>{{t('article.webpage')}}</strong>: <a :href="entry.webpage" target="_blank" rel="noopener">{{ entry.webpage }}</a>
+          </template>
+          <template v-else>
+            <strong>{{t('article.webpage')}}</strong>: -
+          </template>
         </p>
         <p>
           <strong>{{t('article.repository')}}</strong>: <a :href="entry.repository" target="_blank" rel="noopener">{{ entry.repository }}</a>

@@ -34,6 +34,12 @@ export const articleEntries: ArticleEntry[] = [
     repository: 'https://github.com/pawel-papierkowski/portfolio'
   },
   {
+    key: 'ptasks',
+    techStack: 'JavaScript',
+    webpage: null, // this project do not have webpage
+    repository: 'https://github.com/pawel-papierkowski/ptasks'
+  },
+  {
     key: 'tictactoe',
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
