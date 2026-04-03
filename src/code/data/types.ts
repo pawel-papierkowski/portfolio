@@ -17,6 +17,6 @@ export type ArticleGroup = {
 export type ArticleEntry = {
   key: string;
   techStack: string;
-  webpage: string;
+  webpage: string|null; // if null, webpage is not present
   repository: string;
 };

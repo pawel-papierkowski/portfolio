@@ -32,13 +32,17 @@
       "title": "Portfolio",
       "content": "<p>This very project. Very minimal and static, as nothing is needed besides list of all projects that I created.</p><p>Features:</p><ul><li>multiple CSS themes</li><li>multiple languages</li></ul>"
     },
+    "ptasks": {
+      "title": "PTasks",
+      "content": "<p>Single file project (not counting unit tests etc) demonstrating efficient processing of large CSV files and performing calculations on it.</p>"
+    },
     "tictactoe": {
       "title": "Tic-tac-toe",
-      "content": "<p>Simple Vue project implementing Tic-Tac-Toe game.</p><p>Status: project is finished.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels, including perfect gameplay (using miniMax algorithm)</li></ul>"
+      "content": "<p>Simple Vue project implementing Tic-Tac-Toe game.</p><p>Status: finished.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels, including perfect gameplay (using miniMax algorithm)</li></ul>"
     },
     "reversi": {
       "title": "Reversi",
-      "content": "<p>Simple Angular project implementing Reversi game.</p><p>Status: Finished, currently optimization work.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels (using miniMax algorithm with Alpha-Beta pruning)</li></ul>"
+      "content": "<p>Simple Angular project implementing Reversi game.</p><p>Status: finished.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels (using miniMax algorithm with Alpha-Beta pruning)</li></ul>"
     }
   }
 }

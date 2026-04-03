@@ -32,13 +32,17 @@
       "title": "Portfolio",
       "content": "<p>Ten właśnie projekt. Bardzo minimalistyczny i statyczny, ponieważ nie potrzebuje niczego poza listą wszystkich projektów, które stworzyłem.</p><p>Cechy:</p><ul><li>wiele motywów CSS</li><li>wiele języków</li></ul>"
     },
+    "ptasks": {
+      "title": "PTasks",
+      "content": "<p>Jednoplikowy projekt (nie licząc testów itp) demonstrujący efektywne przetwarzanie dużych plików CSV oraz przeprowadzanie obliczeń na nich.</p>"
+    },
     "tictactoe": {
       "title": "Kółko i krzyżyk",
-      "content": "<p>Prosty projekt w Vue, który implementuje grę Kółko i krzyżyk.</p><p>Status: projekt ukończony.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności, w tym perfekcyjna gra (z użyciem algorytmu miniMax)</li></ul>"
+      "content": "<p>Prosty projekt w Vue, który implementuje grę Kółko i krzyżyk.</p><p>Status: ukończony.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności, w tym perfekcyjna gra (z użyciem algorytmu miniMax)</li></ul>"
     },
     "reversi": {
       "title": "Reversi",
-      "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>Status: Ukończone, w trakcie prac optymalizacyjnych.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax oraz przycinaniem Alfa-Beta)</li></ul>"
+      "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>Status: ukończony.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax oraz przycinaniem Alfa-Beta)</li></ul>"
     }
   }
 }
