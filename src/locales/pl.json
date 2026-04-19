@@ -23,6 +23,7 @@
 
   "article": {
     "techStack": "Stos technologiczny",
+    "date": "Data",
     "webpage": "Strona WWW",
     "repository": "Repozytorium"
   },
@@ -32,9 +33,9 @@
       "title": "Ogólna",
       "descr": ""
     },
-    "test": {
-      "title": "Test",
-      "descr": "To jest GRUPA TESTOWA"
+    "userland": {
+      "title": "UserLand",
+      "descr": "Zbiór projektów dla systemu UserLand."
     }
   },
 
@@ -54,6 +55,11 @@
     "reversi": {
       "title": "Reversi",
       "content": "<p>Prosty projekt w Angular, który implementuje grę Reversi.</p><p>Status: ukończony.</p><p>Cechy:</p><ul><li>człowiek kontra człowiek lub człowiek kontra SI</li><li>poziomy trudności (z użyciem algorytmu miniMax oraz przycinaniem Alfa-Beta)</li></ul>"
+    },
+
+    "userland-backend-java": {
+      "title": "Backend UserLandu dla Javy",
+      "content": "<p>Prosty projekt w Javie pokazujący pełną implementację konta użytkownika.</p><p>Status: W TRAKCIE PRAC.</p><p>Planowane cechy:</p><ul><li><b>użytkownik</b>: rejestracja, aktywacja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>email</b> przez dostawcę (<code>JavaMailSender</code> lub <code>Resend</code>)</li><li><b>uprawnienia</b>: zwykły użytkownik lub operator panelu administracyjnego</li><li><b>panel administracyjny</b>: przeglądanie danych, edycja kont, blokowanie/odblokowanie kont</li></ul>"
     }
   }
 }

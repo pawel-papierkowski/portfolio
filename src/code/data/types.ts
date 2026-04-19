@@ -22,6 +22,7 @@ export type ArticleEntry = {
   key: string;
   showProd: boolean; // If false, will not be visible on production, but still visible on dev.
   techStack: string;
+  date: string;
   webpage: string|null; // if null, webpage is not present
   repository: string|null; // if null, repository is not present
 };

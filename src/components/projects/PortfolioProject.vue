@@ -30,6 +30,9 @@ function canShow(): boolean {
         <h3>{{ t('articles.'+entry.key+'.title') }}</h3>
         <div v-html="t('articles.'+entry.key+'.content')"></div>
         <p>
+          <strong>{{t('article.date')}}</strong>: {{ entry.date }}
+        </p>
+        <p>
           <strong>{{t('article.techStack')}}</strong>: {{ entry.techStack }}
         </p>
         <p>
