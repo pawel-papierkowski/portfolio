@@ -4,6 +4,12 @@ Very small and simple project that only shows off where to see other projects in
 
 Page is fully static. You can change **theme** and **language**.
 
+## Basic info
+
+Author: Paweł Papierkowski
+
+Date: April 2026
+
 Link to webpage: https://pawel-papierkowski.github.io/portfolio/
 
 ## Used

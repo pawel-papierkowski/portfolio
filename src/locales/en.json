@@ -23,6 +23,7 @@
 
   "article": {
     "techStack": "Tech stack",
+    "date": "Date",
     "webpage": "Webpage",
     "repository": "Repository"
   },
@@ -32,9 +33,9 @@
       "title": "General",
       "descr": ""
     },
-    "test": {
-      "title": "Test",
-      "descr": "This is TEST GROUP"
+    "userland": {
+      "title": "UserLand",
+      "descr": "Group of projects for UserLand system."
     }
   },
   
@@ -54,6 +55,11 @@
     "reversi": {
       "title": "Reversi",
       "content": "<p>Simple Angular project implementing Reversi game.</p><p>Status: finished.</p><p>Features:</p><ul><li>human vs human or human vs AI</li><li>difficulty levels (using miniMax algorithm with Alpha-Beta pruning)</li></ul>"
+    },
+
+    "userland-backend-java": {
+      "title": "UserLand backend for Java",
+      "content": "<p>Simple Java project showing full implementation of user account.</p><p>Status: IN DEVELOPMENT.</p><p>Planned features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b> via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>rights</b>: standard user or admin panel operator</li><li><b>admin panel</b>: viewing data, editing accounts, account lock/unlock</li></ul>"
     }
   }
 }

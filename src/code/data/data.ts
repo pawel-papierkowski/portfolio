@@ -6,6 +6,7 @@ export const articlesGeneral: ArticleEntry[] = [
     key: 'portfolio',
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
+    date: '2026-04',
     webpage: 'https://pawel-papierkowski.github.io/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio',
   },
@@ -13,6 +14,7 @@ export const articlesGeneral: ArticleEntry[] = [
     key: 'ptasks',
     showProd: true,
     techStack: 'JavaScript',
+    date: '2026-04',
     webpage: null, // this project do not have webpage
     repository: 'https://github.com/pawel-papierkowski/ptasks',
   },
@@ -20,6 +22,7 @@ export const articlesGeneral: ArticleEntry[] = [
     key: 'tictactoe',
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
+    date: '2026-02',
     webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe',
   },
@@ -27,24 +30,27 @@ export const articlesGeneral: ArticleEntry[] = [
     key: 'reversi',
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Angular v21',
+    date: '2026-04',
     webpage: 'https://pawel-papierkowski.github.io/reversi',
     repository: 'https://github.com/pawel-papierkowski/reversi',
   }
 ];
 
-/** List of article entries for test group. */
-export const articlesTest: ArticleEntry[] = [
+/** List of article entries for UserLand group. */
+export const articlesUserLand: ArticleEntry[] = [
   {
-    key: 'testProject1',
-    showProd: false,
-    techStack: 'bla bla',
+    key: 'userland-backend-java',
+    showProd: true,
+    techStack: 'Java 25, Spring Boot 4.0.5, PostgreSQL 17.9',
+    date: '2026',
     webpage: null,
-    repository: null,
+    repository: 'https://github.com/pawel-papierkowski/userland-backend-java',
   },
   {
     key: 'testProject2',
     showProd: false,
     techStack: 'ble ble',
+    date: '2026',
     webpage: null,
     repository: null,
   }
@@ -59,9 +65,9 @@ export const articleGroups: ArticleGroup[] = [
     articles: articlesGeneral,
   },
   {
-    key: 'test',
-    showProd: false,
+    key: 'userland',
+    showProd: true,
     groupingPresent: true,
-    articles: articlesTest,
+    articles: articlesUserLand,
   }
 ];
