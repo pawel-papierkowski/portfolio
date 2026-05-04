@@ -43,7 +43,7 @@ export const articlesUserLand: ArticleEntry[] = [
     showProd: true,
     techStack: 'Java 25, Spring Boot 4.0.5, PostgreSQL 17.9',
     date: '2026',
-    webpage: null,
+    webpage: 'https://userland-backend-java-299988087135.europe-central2.run.app/swagger-ui.html',
     repository: 'https://github.com/pawel-papierkowski/userland-backend-java',
   },
   {

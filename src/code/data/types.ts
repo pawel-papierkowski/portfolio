@@ -11,18 +11,18 @@ export type ProjectProp = {
 
 /** Article group. For multiple related articles (like projects for same system). */
 export type ArticleGroup = {
-  key: string;
+  key: string; // Key for this article group. Used as identificator.
   showProd: boolean; // If false, will not be visible on production, but still visible on dev.
   groupingPresent: boolean; // If false, articles will be shown visually ungrouped.
-  articles: ArticleEntry[];
+  articles: ArticleEntry[]; // Articles for this group.
 };
 
 /** Article entry. */
 export type ArticleEntry = {
-  key: string;
+  key: string; // Key for this article entry. Used as identificator and part of path for article picture.
   showProd: boolean; // If false, will not be visible on production, but still visible on dev.
-  techStack: string;
-  date: string;
-  webpage: string|null; // if null, webpage is not present
-  repository: string|null; // if null, repository is not present
+  techStack: string; // Information about tech stack.
+  date: string; // Information about date of finishing.
+  webpage: string|null; // If null, webpage is not present.
+  repository: string|null; // If null, repository is not present.
 };
