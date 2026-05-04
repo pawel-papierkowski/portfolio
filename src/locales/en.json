@@ -59,7 +59,7 @@
 
     "userland-backend-java": {
       "title": "UserLand backend for Java",
-      "content": "<p>Simple Java project created from scratch showing full implementation of user account.</p><p>Status: IN DEVELOPMENT.</p><p>Planned features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b> via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>permissions</b>: standard user or admin panel operator</li><li><b>admin panel</b>: viewing data, editing accounts, account lock/unlock</li></ul>"
+      "content": "<p>Simple Java project created from scratch showing full implementation of user account.</p><p>Status: IN DEVELOPMENT.</p><p>Planned features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b> via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>permissions</b>: standard user or admin panel operator</li><li><b>admin panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>system</b>: lockdown, system history</li></ul>"
     }
   }
 }
