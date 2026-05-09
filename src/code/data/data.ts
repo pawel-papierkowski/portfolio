@@ -7,7 +7,7 @@ export const articlesGeneral: ArticleEntry[] = [
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
     date: '2026-04',
-    webpage: 'https://pawel-papierkowski.github.io/portfolio',
+    webpage: 'https://pawelpapierkowski.net.pl/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio',
   },
   {
@@ -23,7 +23,7 @@ export const articlesGeneral: ArticleEntry[] = [
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
     date: '2026-02',
-    webpage: 'https://pawel-papierkowski.github.io/tic-tac-toe',
+    webpage: 'https://pawelpapierkowski.net.pl/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe',
   },
   {
@@ -31,7 +31,7 @@ export const articlesGeneral: ArticleEntry[] = [
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Angular v21',
     date: '2026-04',
-    webpage: 'https://pawel-papierkowski.github.io/reversi',
+    webpage: 'https://pawelpapierkowski.net.pl/reversi',
     repository: 'https://github.com/pawel-papierkowski/reversi',
   }
 ];
