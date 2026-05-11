@@ -58,8 +58,13 @@
     },
 
     "userland-backend-java": {
-      "title": "UserLand backend for Java",
-      "content": "<p>Simple Java project created from scratch showing full implementation of user account.</p><p>Status: IN DEVELOPMENT.</p><p>Planned features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b> via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>permissions</b>: standard user or admin panel operator</li><li><b>admin panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>system</b>: lockdown, system history</li></ul>"
+      "title": "UserLand backend in Java",
+      "content": "<p>Backend Java project created from scratch showing full implementation of user management.</p><p>Status: MOSTLY FINISHED.</p><p>Planned features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b> via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>permissions</b>: standard user or admin panel operator</li><li><b>administration panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>system</b>: lockdown, system history</li></ul>"
+    },
+
+    "userland-frontend-vue": {
+      "title": "UserLand frontend in Vue",
+      "content": "<p>Frontend Vue project created from scratch showing full implementation of user management.</p><p>Status: IN DEVELOPMENT.</p><p>Planned features:</p><ul><li><b>user webpage</b>: registration, login, logout, password reset, account edit, account deletion</li><li><b>administration panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>other</b>: responsive web design (RWD)</li></ul>"
     }
   }
 }

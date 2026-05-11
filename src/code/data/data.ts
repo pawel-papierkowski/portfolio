@@ -5,7 +5,7 @@ export const articlesGeneral: ArticleEntry[] = [
   {
     key: 'portfolio',
     showProd: true,
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.5.27',
     date: '2026-04',
     webpage: 'https://pawelpapierkowski.net.pl/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio',
@@ -21,7 +21,7 @@ export const articlesGeneral: ArticleEntry[] = [
   {
     key: 'tictactoe',
     showProd: true,
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue v3.5.27',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.5.27',
     date: '2026-02',
     webpage: 'https://pawelpapierkowski.net.pl/tic-tac-toe',
     repository: 'https://github.com/pawel-papierkowski/tic-tac-toe',
@@ -29,7 +29,7 @@ export const articlesGeneral: ArticleEntry[] = [
   {
     key: 'reversi',
     showProd: true,
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Angular v21',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Angular 21',
     date: '2026-04',
     webpage: 'https://pawelpapierkowski.net.pl/reversi',
     repository: 'https://github.com/pawel-papierkowski/reversi',
@@ -47,12 +47,12 @@ export const articlesUserLand: ArticleEntry[] = [
     repository: 'https://github.com/pawel-papierkowski/userland-backend-java',
   },
   {
-    key: 'testProject2',
-    showProd: false,
-    techStack: 'ble ble',
+    key: 'userland-frontend-vue',
+    showProd: true,
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.22.3',
     date: '2026',
-    webpage: null,
-    repository: null,
+    webpage: 'https://pawelpapierkowski.net.pl/userland-frontend-vue',
+    repository: 'https://github.com/pawel-papierkowski/userland-frontend-vue',
   }
 ];
 

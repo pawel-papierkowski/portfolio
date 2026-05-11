@@ -1,3 +1,4 @@
+# Remember to configure repository in GitHub to enable GitHub Actions.
 name: Deploy Portfolio project to GitHub Pages
 
 on: # When to run this action?
