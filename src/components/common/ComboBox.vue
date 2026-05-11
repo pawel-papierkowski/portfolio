@@ -1,6 +1,28 @@
 <script setup lang="ts">
-// We need to use custom combobox implementation because for some reason <select> and <option>
-// have very bad CSS support for dropdown list among browsers.
+/*
+We need to use custom combobox implementation because for some reason <select> and <option>
+have very bad CSS support for dropdown list for all browsers.
+
+Component uses CSS variables to set up look&feel of combobox. Variables:
+  --combobox-border: Border of combobox field.
+  --combobox-background: Background color of combobox field.
+  --combobox-text: Text color of combobox field.
+  --combobox-background-hover: Background color of combobox field when mouse hovers over it.
+  --combobox-text-hover: Text color of combobox field when mouse hovers over it.
+  --combobox-option-border: Border of dropdown list.
+  --combobox-option-background: Color of background.
+  --combobox-option-background-hover: Background color of dropdown option when mouse hovers over it.
+  --combobox-option-text-hover: Text color of dropdown option when mouse hovers over it.
+
+Properties:
+- v-model - Variable holding selected value.
+- :options - Array of options, will be shown.
+- langPrefix - Prefix, used for auto-translating entries in dropdown list.
+- placeholder - Translated text to use if nothing is selected.
+
+Notes:
+- ComboBox is integrated with vue-i18n.
+*/
 
 import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';

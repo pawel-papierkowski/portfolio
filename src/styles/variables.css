@@ -16,6 +16,7 @@
   --spacing-lg: 24px;
 
   /*** Typography ***/
+  --font-size-base: 16px;
   /* UI elements. */
   --font-family-ui: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   /* Long-form reading. */
@@ -24,16 +25,48 @@
   /* Headers. */
   --font-family-header: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand,
          Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, sans-serif;
-  --font-size-base: 16px;
-  --font-size-footer: 12px;
 
-  /*** Theme defaults ***/
+  /***********************
+   *   Theme defaults.   *
+   ***********************/
+  --color-scheme: light;
+
+  --body-background: #fefefe;
+  --body-color: #111111;
+  --link-color: #2563eb;
+
+  --h1-color: #484848;
+  --h1-text-shadow: 0 0 0px currentColor;
+
+  --h2-color: #484848;
+  --h2-text-shadow: 0 0 0px currentColor;
+
+  --h3-color: #484848;
+  --h3-text-shadow: 0 0 0px currentColor;
+
   --article-image-padding: 3px;
   --article-image-border: 1px solid #333333;
   --article-image-background: #ffffff;
   --article-img-padding: 3px;
   --article-img-border-radius: none;
   --article-img-box-shadow: none;
+
+  --footer-font-size: 12px;
+  --footer-border: none;
+  --footer-border-radius: 5px;
+  --footer-background: #f8f8f8;
+  --footer-box-shadow: none;
+
+  /* ComboBox specific vars. */
+  --combobox-border: 1px solid #d1d5db;
+  --combobox-background: #ffffff;
+  --combobox-text: #111827;
+  --combobox-background-hover: #f0f0f0;
+  --combobox-text-hover: #111827;
+  --combobox-option-border: 1px solid #d1d5db;
+  --combobox-option-background: #f8f8f8;
+  --combobox-option-background-hover: #e8e8e8;
+  --combobox-option-text-hover: #111827;
 }
 
 /*** LIGHT THEMES ***/
@@ -82,6 +115,7 @@
   --article-content-padding: 10px;
   --article-img-padding: 0px;
 
+  --footer-font-size: 12px;
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: #f8f8f8;
@@ -138,6 +172,7 @@
   --section-box-shadow: inset 10px 10px 8px #e1e1e1,
                         inset -10px -10px 8px #f4f4f4;
 
+  --footer-font-size: 12px;
   --footer-border: none;
   --footer-border-radius: 15px;
   --footer-background: linear-gradient(145deg, #eaeaea, #f0f0f0);
@@ -189,6 +224,7 @@
   --article-content-padding: 0px;
   --article-image-border: 3px solid #333333;
 
+  --footer-font-size: 12px;
   --footer-border: 3px solid #000000;
   --footer-border-radius: 0px;
   --footer-background: #ffffff;
@@ -260,6 +296,7 @@
   --article-content-padding: 10px;
   --article-image-border: none;
 
+  --footer-font-size: 12px;
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: #444444;
@@ -311,6 +348,7 @@
   --article-image-border: none;
   --article-image-background: none;
 
+  --footer-font-size: 12px;
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: linear-gradient(315deg,#213a46,#482330);
@@ -428,6 +466,7 @@
   --article-image-border: 1px solid #00ff33;
   --article-image-background: none;
 
+  --footer-font-size: 12px;
   --footer-border: none;
   --footer-border-radius: 5px;
   --footer-background: #005500;

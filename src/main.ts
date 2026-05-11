@@ -4,12 +4,14 @@
  */
 import { createApp } from 'vue';
 
-import './styles/main.css';
+import App from './App.vue';
+
 import i18n from './code/i18n.ts'
 
-import App from './App.vue';
+import './styles/main.css';
 
 const app = createApp(App);
 
 app.use(i18n);
+
 app.mount('#app');

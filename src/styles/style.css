@@ -54,7 +54,7 @@ h3 {
 /**/
 
 footer {
-  font-size: var(--font-size-footer);
+  font-size: var(--footer-font-size);
   text-align: center;
 
   margin: 14px;
