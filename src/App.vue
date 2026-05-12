@@ -9,6 +9,7 @@ import PortfolioFooter from '@/components/layout/PortfolioFooter.vue';
 
 const { locale } = useI18n();
 
+// Find out current language - either from storage or fallback.
 const browserLang = localStorage.getItem('app-language') || 'en';
 locale.value = languages.includes(browserLang) ? browserLang : 'en';
 </script>

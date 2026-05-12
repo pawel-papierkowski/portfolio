@@ -10,9 +10,7 @@ const { t } = useI18n();
   <footer>
     <p>
       {{ t('app.repository') }}:
-      <a href="https://github.com/pawel-papierkowski/portfolio" target="_blank"
-        >https://github.com/pawel-papierkowski/portfolio</a
-      >
+      <a href="https://github.com/pawel-papierkowski/portfolio" target="_blank" rel="noopener">https://github.com/pawel-papierkowski/portfolio</a>
     </p>
     <p>
       &copy; {{ projectProp.dateRange }} {{ projectProp.author }} | v. {{ projectProp.version }} {{ projectProp.build }}
