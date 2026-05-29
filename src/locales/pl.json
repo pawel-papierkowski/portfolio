@@ -21,9 +21,13 @@
     "en": "Angielski"
   },
 
+  "general": {
+    "info": "Projekty prezentowane są w kolejności chronologicznej według daty utworzenia. Moje najnowsze oraz wciąż aktywne projekty znajdują się na samym dole."
+  },
+
   "article": {
     "techStack": "Stos technologiczny",
-    "date": "Data",
+    "date": "Data utworzenia",
     "webpage": "Strona WWW",
     "repository": "Repozytorium"
   },
@@ -59,11 +63,11 @@
 
     "userland-backend-java": {
       "title": "Backend UserLandu w Javie",
-      "content": "<p>Projekt backendowy w Javie stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p>Status: W WIĘKSZOŚCI ZROBIONE.</p><p>Planowane cechy:</p><ul><li><b>użytkownik</b>: rejestracja, aktywacja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>email</b> przez dostawcę (<code>JavaMailSender</code> lub <code>Resend</code>)</li><li><b>uprawnienia</b>: zwykły użytkownik lub operator panelu administracyjnego</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>system</b>: ogólna blokada, historia systemowa</li></ul>"
+      "content": "<p>Projekt backendowy w Javie stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem. Backend jest osadzony na GCP.</p><p>Status: W WIĘKSZOŚCI ZROBIONE.</p><p>Cechy:</p><ul><li><b>użytkownik</b>: rejestracja, aktywacja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>email</b> przez dostawcę (<code>JavaMailSender</code> lub <code>Resend</code>)</li><li><b>uprawnienia</b>: zwykły użytkownik lub operator panelu administracyjnego</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>system</b>: ogólna blokada, historia systemowa</li></ul>"
     },
     "userland-frontend-vue": {
       "title": "Frontend UserLandu w Vue",
-      "content": "<p>Projekt frontendowy w Vue stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p>Status: W TRAKCIE PRAC.</p><p>Planowane cechy:</p><ul><li><b>ogólnodostępna strona</b>: rejestracja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>inne</b>: responsywne strony internetowe (RWD)</li></ul>"
+      "content": "<p>Projekt frontendowy w Vue stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p>Status: W TRAKCIE PRAC.</p><p>Planowane cechy:</p><ul><li><b>ogólnodostępna strona</b>: rejestracja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>inne</b>: responsywna strona internetowa (RWD)</li></ul>"
     }
   }
 }

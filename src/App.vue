@@ -7,7 +7,7 @@ import PortfolioOptions from '@/components/layout/PortfolioOptions.vue';
 import PortfolioGroups from '@/components/projects/PortfolioGroups.vue';
 import PortfolioFooter from '@/components/layout/PortfolioFooter.vue';
 
-const { locale } = useI18n();
+const { t, locale } = useI18n();
 
 // Find out current language - either from storage, system language or fallback.
 const systemLanguage = navigator.language.split('-')[0] || fallbackLang;
@@ -22,6 +22,7 @@ locale.value = languages.includes(browserLang) ? browserLang : fallbackLang;
 
   <main>
     <PortfolioOptions />
+    <div class="onpage-msg info">{{ t('general.info') }}</div>
     <PortfolioGroups />
   </main>
 
@@ -29,4 +30,15 @@ locale.value = languages.includes(browserLang) ? browserLang : fallbackLang;
 </template>
 
 <style scoped>
+.onpage-msg {
+  border-radius: 5px;
+
+  margin: 10px;
+  padding: 2px;
+  font-size: 0.9em;
+}
+
+.onpage-msg.info::before {
+  content: 'ℹ️ ';
+}
 </style>
