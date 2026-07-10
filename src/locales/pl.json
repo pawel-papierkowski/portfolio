@@ -67,7 +67,7 @@
     },
     "userland-frontend-vue": {
       "title": "Frontend UserLandu w Vue",
-      "content": "<p>Projekt frontendowy w Vue stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p>Status: W WIĘKSZOŚCI ZROBIONE.</p><p>Planowane cechy:</p><ul><li><b>ogólnodostępna strona</b>: rejestracja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>inne</b>: responsywna strona internetowa (RWD)</li></ul>"
+      "content": "<p>Projekt frontendowy w Vue stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p>Status: W WIĘKSZOŚCI ZROBIONE.</p><p>Cechy:</p><ul><li><b>własne komponenty</b>: wybór tak/nie (checkbox), lista rozwijana (combobox), wybór jeden z wielu (radiobox), wybór daty/czasu (date/time picker) - pełna obsługa wliczając klawiaturę i ARIA</li><li><b>ogólnodostępna strona</b>: rejestracja, login, logout, reset hasła, edycja danych konta, usuwanie konta</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>inne</b>: responsywna strona internetowa (RWD)</li></ul>"
     }
   }
 }
