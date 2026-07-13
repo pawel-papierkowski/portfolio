@@ -21,7 +21,7 @@ export const articlesGeneral: ArticleEntry[] = [
   {
     key: 'portfolio',
     showProd: true,
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.5.27',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Node.js 24, Vue 3.5.39',
     date: '2026-03',
     webpage: 'https://pawelpapierkowski.net.pl/portfolio',
     repository: 'https://github.com/pawel-papierkowski/portfolio',
@@ -49,7 +49,7 @@ export const articlesUserLand: ArticleEntry[] = [
   {
     key: 'userland-frontend-vue',
     showProd: true,
-    techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.22.3',
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Node.js 24, Vue 3.5.39',
     date: '2026-05',
     webpage: 'https://pawelpapierkowski.net.pl/userland-frontend-vue',
     repository: 'https://github.com/pawel-papierkowski/userland-frontend-vue',

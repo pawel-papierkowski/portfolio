@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { version } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { projectProp } from '@/code/data/const.ts';
 
@@ -8,6 +9,9 @@ const { t } = useI18n();
 
 <template>
   <footer>
+    <p>
+      {{ t('app.framework') }}: Vue {{ version }}
+    </p>
     <p>
       {{ t('app.repository') }}:
       <a href="https://github.com/pawel-papierkowski/portfolio" target="_blank" rel="noopener">https://github.com/pawel-papierkowski/portfolio</a>

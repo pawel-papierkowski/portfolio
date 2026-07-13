@@ -2,6 +2,7 @@
   "app": {
     "title": "Portfolio",
     "description": "Moje projekty",
+    "framework": "Framework",
     "repository": "Repozytorium",
     "selectTheme": "Motyw",
     "selectLang": "Język"
