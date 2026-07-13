@@ -2,6 +2,8 @@
 
 Very small and simple project that only shows off where to see other projects in my portfolio. Includes links to repositories and links to webpages.
 
+Keep in mind projects are shown in chronological order. Most advanced and complex projects that I currently work on are at bottom.
+
 Page is fully static. You can change **theme** and **language**.
 
 ## Basic info
@@ -15,7 +17,7 @@ Link to webpage: https://pawel-papierkowski.github.io/portfolio/
 ## Used
 
 - **Node.js**: 24.13.0
-- **Vue.js**: 3.5.27
+- **Vue.js**: 3.5.39
 
 ## Deployment
 
