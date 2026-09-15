@@ -3,14 +3,6 @@ import type { ArticleGroup, ArticleEntry } from '@/code/data/types';
 /** List of article entries for general group. */
 export const articlesGeneral: ArticleEntry[] = [
   {
-    key: 'ptasks',
-    showProd: true,
-    techStack: 'JavaScript',
-    date: '2026-02',
-    webpage: null, // this project do not have webpage
-    repository: 'https://github.com/pawel-papierkowski/ptasks',
-  },
-  {
     key: 'tictactoe',
     showProd: true,
     techStack: 'HTML, CSS, JavaScript/TypeScript, Vue 3.5.27',
@@ -41,7 +33,7 @@ export const articlesUserLand: ArticleEntry[] = [
   {
     key: 'userland-backend-java',
     showProd: true,
-    techStack: 'Java 25, Spring Boot 4.0.5, PostgreSQL 17.9',
+    techStack: 'Java 25, Spring Boot 4.1.0, PostgreSQL 17.9',
     date: '2026-04',
     webpage: 'https://userland-backend-java-299988087135.europe-central2.run.app/swagger-ui.html',
     repository: 'https://github.com/pawel-papierkowski/userland-backend-java',
@@ -53,6 +45,26 @@ export const articlesUserLand: ArticleEntry[] = [
     date: '2026-05',
     webpage: 'https://pawelpapierkowski.net.pl/userland-frontend-vue',
     repository: 'https://github.com/pawel-papierkowski/userland-frontend-vue',
+  }
+];
+
+/** List of article entries for Geopark group. */
+export const articlesGeopark: ArticleEntry[] = [
+  {
+    key: 'geopark-backend-java',
+    showProd: false,
+    techStack: 'Java 25, Spring Boot 4.1.0, PostgreSQL 17.9',
+    date: '2026-09',
+    webpage: '',
+    repository: 'https://github.com/pawel-papierkowski/geopark-backend-java',
+  },
+  {
+    key: 'geopark-frontend-angular',
+    showProd: true,
+    techStack: 'HTML, CSS, JavaScript/TypeScript, Node.js 24, Angular 22',
+    date: '2026-09',
+    webpage: 'https://pawelpapierkowski.net.pl/geopark-frontend-angular',
+    repository: 'https://github.com/pawel-papierkowski/geopark-frontend-angular',
   }
 ];
 
@@ -69,5 +81,11 @@ export const articleGroups: ArticleGroup[] = [
     showProd: true,
     groupingPresent: true,
     articles: articlesUserLand,
+  },
+  {
+    key: 'geopark',
+    showProd: false,
+    groupingPresent: true,
+    articles: articlesGeopark,
   }
 ];

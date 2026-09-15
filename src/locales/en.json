@@ -41,6 +41,10 @@
     "userland": {
       "title": "UserLand",
       "descr": "Group of projects for UserLand system."
+    },
+    "geopark": {
+      "title": "GeoPark",
+      "descr": "Group of projects for GeoPark system."
     }
   },
   
@@ -48,10 +52,6 @@
     "portfolio": {
       "title": "Portfolio",
       "content": "<p>This very project. Very minimal and static, as nothing is needed besides list of all projects that I created.</p><p>Features:</p><ul><li>multiple CSS themes</li><li>multiple languages</li></ul>"
-    },
-    "ptasks": {
-      "title": "PTasks",
-      "content": "<p>Single file project (not counting unit tests etc) demonstrating efficient processing of large CSV files and performing calculations on it.</p>"
     },
     "tictactoe": {
       "title": "Tic-tac-toe",
@@ -66,10 +66,18 @@
       "title": "UserLand backend in Java",
       "content": "<p>Backend Java project created from scratch showing full implementation of user management. Backend is on GCP.</p><p><b>Status</b>: finished.</p><p>Features:</p><ul><li><b>user</b>: registration, activation, login, logout, password reset, account edit, account deletion</li><li><b>email</b>: via provider (<code>JavaMailSender</code> or <code>Resend</code>)</li><li><b>permissions</b>: standard user or admin panel operator</li><li><b>administration panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>system</b>: lockdown, system history</li></ul>"
     },
-
     "userland-frontend-vue": {
       "title": "UserLand frontend in Vue",
       "content": "<p>Frontend Vue project created from scratch showing full implementation of user management.</p><p><b>Status</b>: finished.</p><p>Features:</p><ul><li><b>custom components</b>: checkbox, combobox, radiobox, date/time picker - full support including keyboard and ARIA</li><li><b>user webpage</b>: registration, login, logout, password reset, account edit, account deletion, member page, test page, debug page</li><li><b>administration panel</b>: viewing user and related data like user history, editing accounts, account lock/unlock</li><li><b>tests</b>: wide range of unit tests (Vitest) and end-to-end tests (Cypress)</li><li><b>security</b>: via JWT token with permissions encoded within. Backend verifies and enforces access rules.</li><li><b>other</b>: responsive web design (RWD), support for multiple languages, user feedback for all actions</li></ul>"
+    },
+
+    "geopark-backend-java": {
+      "title": "GeoPark backend in Java",
+      "content": "<p>Backend Java project created from scratch showing off simple park meter management system. Backend is on GCP.</p><p><b>Status</b>: design stage.</p><p><b>Features</b>: to be determined.</p>"
+    },
+    "geopark-frontend-angular": {
+      "title": "GeoPark frontend in Angular",
+      "content": "<p>Frontend Angular project created from scratch showing off simple park meter management system.</p><p><b>Status</b>: design stage.</p><p><b>Features</b>: to be determined.</p>"
     }
   }
 }

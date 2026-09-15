@@ -41,6 +41,10 @@
     "userland": {
       "title": "UserLand",
       "descr": "Zbiór projektów dla systemu UserLand."
+    },
+    "geopark": {
+      "title": "GeoPark",
+      "descr": "Zbiór projektów dla systemu Geopark."
     }
   },
 
@@ -48,10 +52,6 @@
     "portfolio": {
       "title": "Portfolio",
       "content": "<p>Ten właśnie projekt. Bardzo minimalistyczny i statyczny, ponieważ nie potrzebuje niczego poza listą wszystkich projektów, które stworzyłem.</p><p>Cechy:</p><ul><li>wiele motywów CSS</li><li>wiele języków</li></ul>"
-    },
-    "ptasks": {
-      "title": "PTasks",
-      "content": "<p>Jednoplikowy projekt (nie licząc testów itp) demonstrujący efektywne przetwarzanie dużych plików CSV oraz przeprowadzanie obliczeń na nich.</p>"
     },
     "tictactoe": {
       "title": "Kółko i krzyżyk",
@@ -69,6 +69,15 @@
     "userland-frontend-vue": {
       "title": "Frontend UserLandu w Vue",
       "content": "<p>Projekt frontendowy w Vue stworzony od zera pokazujący pełną implementację zarządzania użytkownikiem.</p><p><b>Status</b>: ukończony.</p><p>Cechy:</p><ul><li><b>własne komponenty</b>: wybór tak/nie (checkbox), lista rozwijana (combobox), wybór jeden z wielu (radiobox), wybór daty/czasu (date/time picker) - pełna obsługa wliczając klawiaturę i ARIA</li><li><b>ogólnodostępna strona</b>: rejestracja, login, logout, reset hasła, edycja danych konta, usuwanie konta, strona członków, strona testowa, strona debugowa</li><li><b>panel administracyjny</b>: przeglądanie użytkownika i powiązanych danych (jak historia), edycja kont, blokowanie/odblokowanie kont</li><li><b>testy</b>: szeroki zakres testów jednostkowych (Vitest) i testów end-to-end (Cypress)</li><li><b>bezpieczeństwo</b>: poprzez tokeny JWT z zaszytymi wewnątrz uprawnieniami. Backend weryfikuje i wymusza zasady dostępu.</li><li><b>inne</b>: responsywna strona internetowa (RWD), obsługa wielojęzyczności, komunikaty dla poczynań użytkownika</li></ul>"
+    },
+
+    "geopark-backend-java": {
+      "title": "Backend GeoParku w Javie",
+      "content": "<p>Projekt backendowy w Javie stworzony od zera prezentujący prosty system zarządzania parkometrami. Backend jest osadzony na GCP.</p><p><b>Status</b>: w fazie projektowania.</p><p><b>Cechy</b>: do ustalenia.</p>"
+    },
+    "geopark-frontend-angular": {
+      "title": "Frontend GeoParku w Angular",
+      "content": "<p>Projekt frontendowy w Angular stworzony od zera prezentujący prosty system zarządzania parkometrami.</p><p><b>Status</b>: w fazie projektowania.</p><p><b>Cechy</b>: do ustalenia.</p>"
     }
   }
 }
